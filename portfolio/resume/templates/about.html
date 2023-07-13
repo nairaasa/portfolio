@@ -1,0 +1,161 @@
+{% extends "base.html" %} {% load static %} {% block bodycontent %}
+
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Naira</a></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a class="active" href="/about">About</a></li>
+          <li><a href="/resume">Resume</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main id="main">
+
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>A person with passion and purpose.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="{% static 'assets/img/about.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Russian language &amp; literature teacher</h3>
+            <p class="fst-italic">
+              Чтобы воспитывать другого, мы должны воспитать прежде всего себя. (Николай Васильевич Гоголь)
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Birthday:</strong> 31 March 1988</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Website:</strong> www.example.com</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Phone:</strong> +374 98 652 343</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>City:</strong> City : Vayk, RA</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Age:</strong> 35</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Degree:</strong> Bachelor</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>PhEmailone:</strong> asatryan.nairah@gmail.com</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Freelance:</strong> Available</li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              My objective is to instill a love for literature, foster critical thinking skills, and provide historical and cultural context to enhance the understanding of Russian literary masterpieces. Giuding students through the exploration of classic novels, plays, and poetry, encouraging them to delve into the intricacies of the Russian literary tradition.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Skills are the building blocks that transform potential into reality, unlocking doors to endless possibilities and shaping our journey towards success.</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+            {% for skill in skills.0 %}
+            <div class="progress">
+              <span class="skill">{{skill.name}} <i class="val">{{skill.value}}%</i></span>
+              <div class="progress-bar-wrap">
+                <div  class="progress-bar" 
+                      role="progressbar" 
+                      aria-valuenow="{{skill.value}}" 
+                      aria-valuemin="0" 
+                      aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+
+          <div class="col-lg-6">
+            {% for skill in skills.1 %}
+            <div class="progress">
+              <span class="skill">{{skill.name}} <i class="val">{{skill.value}}%</i></span>
+              <div class="progress-bar-wrap">
+                <div  class="progress-bar" 
+                      role="progressbar" 
+                      aria-valuenow="{{skill.value}}" 
+                      aria-valuemin="0" 
+                      aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>In a world often clouded by opinions and subjective interpretations, facts shine like beacons of clarity, guiding us towards understanding and informed decision-making. Embrace the power of facts, for they hold the key to unlocking the doors of wisdom and progress.</p>
+        </div>
+
+        <div class="row counters">
+          
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+            <p>{{facts.0.name}}</p>
+          </div>
+          
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
+            <p>{{facts.1.name}}</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="1" class="purecounter"></span>
+            <p>{{facts.2.name}}</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+            <p>{{facts.3.name}}</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  
+  {% include "footer.html" %} {% endblock %}

@@ -1,0 +1,108 @@
+{% extends "base.html" %} {% load static %} {% block bodycontent %}
+
+  <header id="header" class="fixed-top">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Naira</a></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a class="active" href="/resume">Resume</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main id="main">
+
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Naira Assatrian</h4>
+              <p><em>Dedicated, warm and caring teacher with 10+ years of experience who wants all children to be successful learners. Able to develop personal relationships with students and build their abilities.</em></p>
+              <p>
+              <ul>
+                <li>Shahumyan 23, Vayk, Armenia</li>
+                <li>(374) 98 652-343</li>
+                <li>asatryan.nairah@gmail.com</li>
+              </ul>
+              </p>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>{{educations.0.grade}}</h4>
+              <h5>{{educations.0.start_date}} - {{educations.0.end_date}}</h5>
+              <p><em>{{educations.0.university_name}}</em></p>
+              <p>Specialization - The Faculty of Russian Language, Literature and Foreign Languages</p>
+            </div>
+            <div class="resume-item">
+              <h4>{{educations.1.grade}}</h4>
+              <h5>{{educations.1.start_date}} - {{educations.1.end_date}}</h5>
+              <p><em>{{educations.1.university_name}}</em></p>
+              <p>Specialization - Python Programming Language. Trainings - Course of Linux OS, Critical Thinking, Django, HTML.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              
+                <h4>{{experiences.0.job_position}}</h4>
+                <h5>{{experiences.0.start_date}}-{{experiences.0.end_date}}</h5>
+                <p><em>{{experiences.0.address}} </em></p>
+              
+              <p>
+                <ul>
+                  <li>Developing and issuing educational content including notes, tests, and assignments.</li>
+                  <li>Supervising classes to ensure all students are learning in a safe and productive environment.</li>
+                  <li>Delivering personalized instruction to each student by encouraging interactive learning.</li>
+                  <li>Preparing and distributing periodic progress reports and semester report cards.</li>
+                </ul>
+              </p>
+            </div>
+            <div class="resume-item">
+              <h4>{{experiences.1.job_position}}</h4>
+              <h5>{{experiences.1.start_date}} - {{experiences.1.end_date}}</h5>
+              <p><em>{{experiences.1.address}}</em></p>
+              <p>
+              <ul>
+                <li>Developing and issuing educational content including notes, tests, and assignments.</li>
+                <li>Organizing supplies and resources for lectures and presentations.</li>
+                <li>Preparing and distributing periodic progress reports and semester report cards.</li>
+                <li>Evaluating and documenting students’ progress.</li>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  
+  {% include "footer.html" %} {% endblock %}
