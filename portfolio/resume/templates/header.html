@@ -1,0 +1,27 @@
+<header id="header" class="fixed-top">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+
+    <h1 class="logo me-auto me-lg-0"><a href="/">Naira</a></h1>
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li {% if active == "/" %} class="active" {%endif%}><a href="/">Home</a></li>
+        <li {% if active == "/about" %} class="active" {%endif%}> <a href="/about">About</a></li>
+        <li {% if active == "/resume" %} class="active" {%endif%}><a href="/resume">Resume</a></li>
+        <li {% if active == "/services" %} class="active" {%endif%}><a href="/services">Services</a></li>
+        <li {% if active == "/portfolio" %} class="active" {%endif%}><a href="/portfolio">Portfolio</a></li>
+        <li {% if active == "/contact" %} class="active" {%endif%}><a href="/contact">Contact</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+
+    <div class="header-social-links">
+      <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
+    </div>
+
+  </div>
+
+</header>
