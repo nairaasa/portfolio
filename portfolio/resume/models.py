@@ -18,9 +18,6 @@ class Education(models.Model):
     grade = models.TextField(max_length=30, blank=True, null=True)
     created_on = models.DateTimeField(auto_now=True)
 
-    def __str__(self) -> str:
-        return f"{self.university_name}, {self.grade}'s degree"
-
 
 class Experience(models.Model):
     job_position = models.TextField()
@@ -30,9 +27,6 @@ class Experience(models.Model):
     address = models.TextField()
     job_description = models.TextField()
     company_name = models.TextField()
-
-    def __str__(self) -> str:
-        return f"{self.company_name}, job position - {self.job_position}"
 
 
 class SocialMedia(models.Model):
@@ -51,17 +45,12 @@ class Fact(models.Model):
         return f"{self.name} - {self.value}"
 
 
-
-class Testimonial(models.Model):
-    name = models.TextField()
-    proffesion = models.TextField()
-    text = models.TextField()
-    image =models.ImageField()
-
-
 class Service(models.Model):
     service_name = models.TextField()
     service_description = models.TextField()
+
+    def __str__(self) -> str:
+        return f"{self.service_name}"
 
 
 class PersonalData(models.Model):

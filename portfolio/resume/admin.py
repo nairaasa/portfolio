@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Skill, Education, Experience, SocialMedia, Fact, Testimonial, Service, PersonalData, Contact
+from .models import Skill, Education, Experience, SocialMedia, Fact, Service, PersonalData, Contact
 
 class SkillAdmin(admin.ModelAdmin):
     list_display = ["name", "value"]
@@ -12,7 +12,13 @@ class EducationAdmin(admin.ModelAdmin):
 class ExperienceAdmin(admin.ModelAdmin):
     list_display = ["job_position", "start_date", "end_date", "address", "company_name"]
 
+class PersonalDataAdmin(admin.ModelAdmin):
+    list_display = ["first_name", "last_name"]
+    search_fields = ["first_name", "last_name"]
 
+class ContactAdmin(admin.ModelAdmin):
+    list_display = ["email", "phone", "location"]
+    search_fields = ["email", "phone", "location"]
 
 # Register your models here.
 admin.site.register(Skill, SkillAdmin)
@@ -20,7 +26,6 @@ admin.site.register(Education, EducationAdmin)
 admin.site.register(Experience, ExperienceAdmin)
 admin.site.register(SocialMedia)
 admin.site.register(Fact)
-admin.site.register(Testimonial)
 admin.site.register(Service)
-admin.site.register(PersonalData)
-admin.site.register(Contact)
+admin.site.register(PersonalData, PersonalDataAdmin)
+admin.site.register(Contact, ContactAdmin)
