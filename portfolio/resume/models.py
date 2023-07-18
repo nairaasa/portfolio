@@ -1,5 +1,6 @@
 from django.db import models
 from django.core.validators import MaxValueValidator, MinValueValidator
+from django.contrib.auth import get_user_model
 
 
 # Create your models here.
@@ -52,13 +53,13 @@ class Service(models.Model):
     def __str__(self) -> str:
         return f"{self.service_name}"
 
+User = get_user_model()
 
 class PersonalData(models.Model):
     first_name = models.TextField(max_length=20)
     last_name = models.TextField(max_length=30)
     who_i_am = models.TextField(max_length=50, blank=True, null=True)
-    logo = models.TextField(max_length=15, blank=True, null=True)
-
+    user = models.ForeignKey(User, on_delete = models.CASCADE)
 
 class Contact(models.Model):
     location = models.TextField(max_length=50)
