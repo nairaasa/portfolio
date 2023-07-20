@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Skill, Education, Experience, SocialMedia, Fact, Service, PersonalData, Contact
+from .models import Skill, Education, Experience, SocialMedia, Fact, Service, PersonalData, Contact, Message
 
 class SkillAdmin(admin.ModelAdmin):
     list_display = ["name", "value"]
@@ -29,3 +29,4 @@ admin.site.register(Fact)
 admin.site.register(Service)
 admin.site.register(PersonalData, PersonalDataAdmin)
 admin.site.register(Contact, ContactAdmin)
+admin.site.register(Message)

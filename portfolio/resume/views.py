@@ -1,5 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Skill, PersonalData, Experience, Fact, Education, Service, Contact
+from .forms import MessageForm
 
 # Create your views here.
 def home(request):
@@ -48,8 +49,21 @@ def portfolio(request):
 
 
 def contact(request):
+    
+    if request.method == "POST":
+        print("POSTED DATA")
+        print(request.POST)
+        form = MessageForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect("")
+        else:
+            print("TELL THEM THAT SEND DATA IS NOT VALID")
+
     contacts = Contact.objects.first()
+    messageForm = MessageForm()
     data6 = {
-        "contacts": contacts
+        "contacts": contacts,
+        "messageForm": messageForm
     }
     return render(request, "contact.html", context=data6)
