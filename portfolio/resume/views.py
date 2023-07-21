@@ -56,9 +56,9 @@ def contact(request):
         form = MessageForm(request.POST)
         if form.is_valid():
             form.save()
-            return redirect("")
+            return redirect("contact")
         else:
-            print("TELL THEM THAT SEND DATA IS NOT VALID")
+            print("TELL THEM THAT SENT DATA IS NOT VALID")
 
     contacts = Contact.objects.first()
     messageForm = MessageForm()
