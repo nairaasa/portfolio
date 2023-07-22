@@ -60,10 +60,10 @@ def contact(request):
         else:
             print("TELL THEM THAT SENT DATA IS NOT VALID")
 
-    contacts = Contact.objects.first()
+    contact = Contact.objects.first()
     messageForm = MessageForm()
     data6 = {
-        "contacts": contacts,
+        "contact": contact,
         "messageForm": messageForm
     }
     return render(request, "contact.html", context=data6)
