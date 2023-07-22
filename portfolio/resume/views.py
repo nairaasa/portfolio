@@ -4,7 +4,7 @@ from .forms import MessageForm
 
 # Create your views here.
 def home(request):
-    personal_data = PersonalData.objects.first()
+    personal_data = PersonalData.objects.get(user__username="naira_asatryan")
     data1 = {
         "personal_data": personal_data
         }

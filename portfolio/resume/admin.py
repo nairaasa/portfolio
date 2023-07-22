@@ -13,7 +13,7 @@ class ExperienceAdmin(admin.ModelAdmin):
     list_display = ["job_position", "start_date", "end_date", "address", "company_name"]
 
 class PersonalDataAdmin(admin.ModelAdmin):
-    list_display = ["first_name", "last_name"]
+    list_display = ["first_name", "last_name", "user"]
     search_fields = ["first_name", "last_name"]
 
 class ContactAdmin(admin.ModelAdmin):
