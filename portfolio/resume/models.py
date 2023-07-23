@@ -59,7 +59,6 @@ class PersonalData(models.Model):
     first_name = models.TextField(max_length=20)
     last_name = models.TextField(max_length=30)
     who_i_am = models.TextField(max_length=50, blank=True, null=True)
-    logo = models.TextField(max_length=15, blank=True, null=True)
     user = models.ForeignKey(User, on_delete = models.CASCADE)
 
 class Contact(models.Model):
