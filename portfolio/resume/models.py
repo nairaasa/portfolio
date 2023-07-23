@@ -14,16 +14,17 @@ class Skill(models.Model):
 
 class Education(models.Model):
     university_name = models.TextField()
-    start_date = models.DateField()
-    end_date = models.DateField()
+    start_date = models.PositiveIntegerField()
+    end_date = models.PositiveIntegerField(blank=True, null=True)
     grade = models.TextField(max_length=30, blank=True, null=True)
+    is_current = models.BooleanField(blank=True, null=True)
     created_on = models.DateTimeField(auto_now=True)
 
 
 class Experience(models.Model):
     job_position = models.TextField()
-    start_date = models.DateField()
-    end_date = models.DateField()
+    start_date = models.PositiveIntegerField()
+    end_date = models.PositiveIntegerField(blank=True, null=True)
     is_current = models.BooleanField()
     address = models.TextField()
     job_description = models.TextField()

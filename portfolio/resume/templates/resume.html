@@ -34,7 +34,7 @@
             </div>
             <div class="resume-item">
               <h4>{{educations.1.grade}}</h4>
-              <h5>{{educations.1.start_date}} - {{educations.1.end_date}}</h5>
+              <h5>{{educations.1.start_date}} - {% if educations.1.is_current %} present {% else %} {{educations.1.end_date}} {% endif %}</h5>
               <p><em>{{educations.1.university_name}}</em></p>
               <p>Specialization - Python Programming Language. Trainings - Course of Linux OS; Django framework for building web applications; HTML, CSS integration; Working with database using OOP tools.</p>
             </div>
@@ -58,7 +58,7 @@
             </div>
             <div class="resume-item">
               <h4>{{experiences.1.job_position}}</h4>
-              <h5>{{experiences.1.start_date}} - {{experiences.1.end_date}}</h5>
+              <h5>{{experiences.1.start_date}} - {% if experiences.1.is_current %} present {% else %} {{experiences.1.end_date}} {% endif %}</h5>
               <p><em>{{experiences.1.address}}</em></p>
               <p>
               <ul>
