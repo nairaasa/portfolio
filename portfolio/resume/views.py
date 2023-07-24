@@ -26,9 +26,11 @@ def about(request):
 def resume(request):
     experiences = Experience.objects.all()
     educations = Education.objects.all()
+    personal_data = PersonalData.objects.first()
     data3 = {
         "experiences": experiences,
-        "educations": educations
+        "educations": educations,
+        "personal_data": personal_data
     }
     return render(request, "resume.html", context=data3)
 

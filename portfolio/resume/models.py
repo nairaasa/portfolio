@@ -16,8 +16,9 @@ class Education(models.Model):
     university_name = models.TextField()
     start_date = models.PositiveIntegerField()
     end_date = models.PositiveIntegerField(blank=True, null=True)
-    grade = models.TextField(max_length=30, blank=True, null=True)
     is_current = models.BooleanField(blank=True, null=True)
+    grade = models.TextField(max_length=30, blank=True, null=True)
+    specialization = models.CharField(max_length=200, blank=True, null=True)
     created_on = models.DateTimeField(auto_now=True)
 
 
@@ -60,6 +61,11 @@ class PersonalData(models.Model):
     first_name = models.TextField(max_length=20)
     last_name = models.TextField(max_length=30)
     who_i_am = models.TextField(max_length=50, blank=True, null=True)
+    summary = models.TextField(max_length=500, blank=True, null=True)
+    address = models.TextField(max_length=35, blank=True, null=True)
+    tel = models.CharField(max_length=15, blank=True, null=True)
+    email = models.EmailField(blank=True, null=True)
+    quote = models.TextField(max_length=500, blank=True, null=True)
     user = models.ForeignKey(User, on_delete = models.CASCADE)
 
 class Contact(models.Model):
