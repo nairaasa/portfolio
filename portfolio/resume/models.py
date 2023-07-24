@@ -62,7 +62,7 @@ class PersonalData(models.Model):
     last_name = models.TextField(max_length=30)
     who_i_am = models.TextField(max_length=50, blank=True, null=True)
     summary = models.TextField(max_length=500, blank=True, null=True)
-    address = models.TextField(max_length=35, blank=True, null=True)
+    address = models.TextField(max_length=50, blank=True, null=True)
     tel = models.CharField(max_length=15, blank=True, null=True)
     email = models.EmailField(blank=True, null=True)
     bday = models.CharField(max_length=50, blank=True, null=True)
@@ -73,6 +73,7 @@ class PersonalData(models.Model):
     quote03 = models.TextField(max_length=500, blank=True, null=True)
     quote04 = models.TextField(max_length=500, blank=True, null=True)
     quote05 = models.TextField(max_length=500, blank=True, null=True)
+    quote06 = models.TextField(max_length=500, blank=True, null=True)
     user = models.ForeignKey(User, on_delete = models.CASCADE)
 
 class Contact(models.Model):
