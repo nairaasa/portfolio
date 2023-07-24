@@ -65,7 +65,14 @@ class PersonalData(models.Model):
     address = models.TextField(max_length=35, blank=True, null=True)
     tel = models.CharField(max_length=15, blank=True, null=True)
     email = models.EmailField(blank=True, null=True)
+    bday = models.CharField(max_length=50, blank=True, null=True)
+    website = models.CharField(max_length=50, blank=True, null=True)
     quote = models.TextField(max_length=500, blank=True, null=True)
+    quote01 = models.TextField(max_length=500, blank=True, null=True)
+    quote02 = models.TextField(max_length=500, blank=True, null=True)
+    quote03 = models.TextField(max_length=500, blank=True, null=True)
+    quote04 = models.TextField(max_length=500, blank=True, null=True)
+    quote05 = models.TextField(max_length=500, blank=True, null=True)
     user = models.ForeignKey(User, on_delete = models.CASCADE)
 
 class Contact(models.Model):

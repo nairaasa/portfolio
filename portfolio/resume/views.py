@@ -15,9 +15,11 @@ def home(request):
 def about(request):
     skills = Skill.objects.all()
     facts = Fact.objects.all()
+    personal_data = PersonalData.objects.first()
     data2 = {
         "skills": [skills[:3],skills[3:]],
         "facts": facts,
+        "personal_data": personal_data
     }
     return render(request, "about.html", context=data2)
 
