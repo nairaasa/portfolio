@@ -89,3 +89,9 @@ class Message(models.Model):
 
     def __str__(self) -> str:
         return f"You have a text message, subject - {self.subject}"
+
+class PortfolioProject(models.Model):
+    name = models.CharField(max_length=50)
+    image = models.ImageField(upload_to="media")
+    short_description = models.CharField(max_length=50)
+    description = models.TextField(max_length=1000)

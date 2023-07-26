@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import Skill, PersonalData, Experience, Fact, Education, Service, Contact
+from .models import Skill, PersonalData, Experience, Fact, Education, Service, Contact, PortfolioProject
 from .forms import MessageForm
 
 # Create your views here.
@@ -48,7 +48,11 @@ def services(request):
 
 
 def portfolio(request):
-    return render(request, "portfolio.html")
+    portfolio_projects = PortfolioProject.objects.all()
+    data5 = {
+        "portfolio_projects": portfolio_projects
+    }
+    return render(request, "portfolio.html", context=data5)
 
 
 
