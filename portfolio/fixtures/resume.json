@@ -176,2008 +176,2077 @@
             "user": 1,
             "content_type": 9,
             "object_id": "1",
-            "object_repr": "High School no. 1, job position - Russian language & literature teacher", 
-            "action_flag": 2, 
+            "object_repr": "High School no. 1, job position - Russian language & literature teacher",
+            "action_flag": 2,
             "change_message": "[{\"changed\": {\"fields\": [\"Company name\"]}}]"
-                }
-            },
-            {
-                "model": "admin.logentry",
-                "pk": 15,
-                "fields": {
-                    "action_time": "2023-07-06T15:04:20.614Z",
-                    "user": 1,
-                    "content_type": 11,
-                    "object_id": "1",
-                    "object_repr": "Fact object (1)",
-                    "action_flag": 1,
-                    "change_message": "[{\"added\": {}}]"
-                }
-            },
-            {
-                "model": "admin.logentry",
-                "pk": 16,
-                "fields": {
-                    "action_time": "2023-07-06T15:04:50.495Z",
-                    "user": 1,
-                    "content_type": 11,
-                    "object_id": "2",
-                    "object_repr": "Fact object (2)",
-                    "action_flag": 1,
-                    "change_message": "[{\"added\": {}}]"
-                }
-            },
-            {
-                "model": "admin.logentry",
-                "pk": 17,
-                "fields": {
-                    "action_time": "2023-07-06T15:05:44.500Z",
-                    "user": 1,
-                    "content_type": 11,
-                    "object_id": "3",
-                    "object_repr": "Fact object (3)",
-                    "action_flag": 1,
-                    "change_message": "[{\"added\": {}}]"
-                }
-            },
-            {
-                "model": "admin.logentry",
-                "pk": 18,
-                "fields": {
-                    "action_time": "2023-07-06T15:06:04.873Z",
-                    "user": 1,
-                    "content_type": 11,
-                    "object_id": "4",
-                    "object_repr": "Fact object (4)",
-                    "action_flag": 1,
-                    "change_message": "[{\"added\": {}}]"
-                }
-            },
-            {
-                "model": "admin.logentry",
-                "pk": 19,
-                "fields": {
-                    "action_time": "2023-07-10T14:13:51.317Z",
-                    "user": 2,
-                    "content_type": 14,
-                    "object_id": "1",
-                    "object_repr": "PersonalData object (1)",
-                    "action_flag": 1,
-                    "change_message": "[{\"added\": {}}]"
-                }
-            },
-            {
-                "model": "admin.logentry",
-                "pk": 20,
-                "fields": {
-                    "action_time": "2023-07-10T14:43:40.670Z",
-                    "user": 2,
-                    "content_type": 14,
-                    "object_id": "1",
-                    "object_repr": "PersonalData object (1)",
-                    "action_flag": 2,
-                    "change_message": "[]"
-                }
-            },
-            {
-                "model": "admin.logentry",
-                "pk": 21,
-                "fields": {
-                    "action_time": "2023-07-10T17:19:39.696Z",
-                    "user": 2,
-                    "content_type": 14,
-                    "object_id": "1",
-                    "object_repr": "PersonalData object (1)",
-                    "action_flag": 2,
-                    "change_message": "[{\"changed\": {\"fields\": [\"Who i am\", \"Logo\"]}}]"
-                }
-            },
-            {
-                "model": "admin.logentry",
-                "pk": 22,
-                "fields": {
-                    "action_time": "2023-07-10T17:58:04.915Z",
-                    "user": 2,
-                    "content_type": 14,
-                    "object_id": "1",
-                    "object_repr": "PersonalData object (1)",
-                    "action_flag": 2,
-                    "change_message": "[{\"changed\": {\"fields\": [\"Last name\", \"Who i am\"]}}]"
-                }
-            },
-            {
-                "model": "admin.logentry",
-                "pk": 23,
-                "fields": {
-                    "action_time": "2023-07-10T18:42:57.349Z",
-                    "user": 2,
-                    "content_type": 9,
-                    "object_id": "1",
-                    "object_repr": "High School no. 1, job position - Russian language & literature teacher",
-                    "action_flag": 2,
-                    "change_message": "[{\"changed\": {\"fields\": [\"Job description\"]}}]"
-                }
-            },
-            {
-                "model": "admin.logentry",
-                "pk": 24,
-                "fields": {
-                    "action_time": "2023-07-10T18:45:29.102Z",
-                    "user": 2,
-                    "content_type": 9,
-                    "object_id": "1",
-                    "object_repr": "High School no. 1, job position - Russian language & literature teacher",
-                    "action_flag": 2,
-                    "change_message": "[{\"changed\": {\"fields\": [\"Job description\"]}}]"
-                }
-            },
-            {
-                "model": "admin.logentry",
-                "pk": 25,
-                "fields": {
-                    "action_time": "2023-07-13T10:55:59.749Z",
-                    "user": 2,
-                    "content_type": 8,
-                    "object_id": "1",
-                    "object_repr": "Yerevan State Linguistic University after V. Brusov, Bachelor Degree of Linguistics's degree", 
-                    "action_flag": 2, 
-                    "change_message": "[{\"changed\": {\"fields\": [\"Grade\"]}}]"
-                        }
-                    },
-                    {
-                        "model": "admin.logentry",
-                        "pk": 26,
-                        "fields": {
-                            "action_time": "2023-07-13T11:07:54.499Z",
-                            "user": 2,
-                            "content_type": 8,
-                            "object_id": "2",
-                            "object_repr": "Armenian Virtual College, Web Development Intern's degree",
-                            "action_flag": 2,
-                            "change_message": "[{\"changed\": {\"fields\": [\"Grade\"]}}]"
-                        }
-                    },
-                    {
-                        "model": "admin.logentry",
-                        "pk": 27,
-                        "fields": {
-                            "action_time": "2023-07-13T11:23:40.260Z",
-                            "user": 2,
-                            "content_type": 9,
-                            "object_id": "2",
-                            "object_repr": "Primary School of Vayk City, job position - Russian language & literature teacher",
-                            "action_flag": 1, 
-                            "change_message": "[{\"added\": {}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 28,
-                                "fields": {
-                                    "action_time": "2023-07-13T14:19:37.565Z",
-                                    "user": 2,
-                                    "content_type": 12,
-                                    "object_id": "1",
-                                    "object_repr": "Service object (1)",
-                                    "action_flag": 1,
-                                    "change_message": "[{\"added\": {}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 29,
-                                "fields": {
-                                    "action_time": "2023-07-13T14:25:44.321Z",
-                                    "user": 2,
-                                    "content_type": 12,
-                                    "object_id": "2",
-                                    "object_repr": "Service object (2)",
-                                    "action_flag": 1,
-                                    "change_message": "[{\"added\": {}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 30,
-                                "fields": {
-                                    "action_time": "2023-07-13T14:28:12.084Z",
-                                    "user": 2,
-                                    "content_type": 12,
-                                    "object_id": "3",
-                                    "object_repr": "Service object (3)",
-                                    "action_flag": 1,
-                                    "change_message": "[{\"added\": {}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 31,
-                                "fields": {
-                                    "action_time": "2023-07-13T15:08:27.201Z",
-                                    "user": 2,
-                                    "content_type": 15,
-                                    "object_id": "1",
-                                    "object_repr": "Contact object (1)",
-                                    "action_flag": 1,
-                                    "change_message": "[{\"added\": {}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 32,
-                                "fields": {
-                                    "action_time": "2023-07-13T15:08:42.394Z",
-                                    "user": 2,
-                                    "content_type": 15,
-                                    "object_id": "1",
-                                    "object_repr": "Contact object (1)",
-                                    "action_flag": 2,
-                                    "change_message": "[]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 33,
-                                "fields": {
-                                    "action_time": "2023-07-17T09:55:02.148Z",
-                                    "user": 2,
-                                    "content_type": 12,
-                                    "object_id": "4",
-                                    "object_repr": "Service object (4)",
-                                    "action_flag": 1,
-                                    "change_message": "[{\"added\": {}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 34,
-                                "fields": {
-                                    "action_time": "2023-07-17T10:02:07.730Z",
-                                    "user": 2,
-                                    "content_type": 12,
-                                    "object_id": "5",
-                                    "object_repr": "Service object (5)",
-                                    "action_flag": 1,
-                                    "change_message": "[{\"added\": {}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 35,
-                                "fields": {
-                                    "action_time": "2023-07-17T10:05:02.692Z",
-                                    "user": 2,
-                                    "content_type": 12,
-                                    "object_id": "6",
-                                    "object_repr": "Service object (6)",
-                                    "action_flag": 1,
-                                    "change_message": "[{\"added\": {}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 36,
-                                "fields": {
-                                    "action_time": "2023-07-17T12:39:58.092Z",
-                                    "user": 2,
-                                    "content_type": 10,
-                                    "object_id": "2",
-                                    "object_repr": "Linkedin account",
-                                    "action_flag": 1,
-                                    "change_message": "[{\"added\": {}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 37,
-                                "fields": {
-                                    "action_time": "2023-07-17T12:40:31.413Z",
-                                    "user": 2,
-                                    "content_type": 10,
-                                    "object_id": "3",
-                                    "object_repr": "Instagram account",
-                                    "action_flag": 1,
-                                    "change_message": "[{\"added\": {}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 38,
-                                "fields": {
-                                    "action_time": "2023-07-17T12:40:54.910Z",
-                                    "user": 2,
-                                    "content_type": 10,
-                                    "object_id": "4",
-                                    "object_repr": "Facebook account",
-                                    "action_flag": 1,
-                                    "change_message": "[{\"added\": {}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 39,
-                                "fields": {
-                                    "action_time": "2023-07-18T06:20:58.047Z",
-                                    "user": 2,
-                                    "content_type": 4,
-                                    "object_id": "3",
-                                    "object_repr": "proxy",
-                                    "action_flag": 1,
-                                    "change_message": "[{\"added\": {}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 40,
-                                "fields": {
-                                    "action_time": "2023-07-18T06:22:45.113Z",
-                                    "user": 2,
-                                    "content_type": 4,
-                                    "object_id": "3",
-                                    "object_repr": "proxy",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 41,
-                                "fields": {
-                                    "action_time": "2023-07-21T09:34:18.005Z",
-                                    "user": 2,
-                                    "content_type": 16,
-                                    "object_id": "8",
-                                    "object_repr": "Message object (8)",
-                                    "action_flag": 3,
-                                    "change_message": ""
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 42,
-                                "fields": {
-                                    "action_time": "2023-07-21T09:34:18.045Z",
-                                    "user": 2,
-                                    "content_type": 16,
-                                    "object_id": "7",
-                                    "object_repr": "Message object (7)",
-                                    "action_flag": 3,
-                                    "change_message": ""
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 43,
-                                "fields": {
-                                    "action_time": "2023-07-21T09:34:18.052Z",
-                                    "user": 2,
-                                    "content_type": 16,
-                                    "object_id": "6",
-                                    "object_repr": "Message object (6)",
-                                    "action_flag": 3,
-                                    "change_message": ""
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 44,
-                                "fields": {
-                                    "action_time": "2023-07-21T09:34:18.090Z",
-                                    "user": 2,
-                                    "content_type": 16,
-                                    "object_id": "5",
-                                    "object_repr": "Message object (5)",
-                                    "action_flag": 3,
-                                    "change_message": ""
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 45,
-                                "fields": {
-                                    "action_time": "2023-07-21T09:34:18.119Z",
-                                    "user": 2,
-                                    "content_type": 16,
-                                    "object_id": "4",
-                                    "object_repr": "Message object (4)",
-                                    "action_flag": 3,
-                                    "change_message": ""
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 46,
-                                "fields": {
-                                    "action_time": "2023-07-21T09:34:18.149Z",
-                                    "user": 2,
-                                    "content_type": 16,
-                                    "object_id": "3",
-                                    "object_repr": "Message object (3)",
-                                    "action_flag": 3,
-                                    "change_message": ""
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 47,
-                                "fields": {
-                                    "action_time": "2023-07-21T09:34:18.171Z",
-                                    "user": 2,
-                                    "content_type": 16,
-                                    "object_id": "2",
-                                    "object_repr": "Message object (2)",
-                                    "action_flag": 3,
-                                    "change_message": ""
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 48,
-                                "fields": {
-                                    "action_time": "2023-07-21T09:34:18.257Z",
-                                    "user": 2,
-                                    "content_type": 16,
-                                    "object_id": "1",
-                                    "object_repr": "Message object (1)",
-                                    "action_flag": 3,
-                                    "change_message": ""
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 49,
-                                "fields": {
-                                    "action_time": "2023-07-21T15:58:00.147Z",
-                                    "user": 2,
-                                    "content_type": 14,
-                                    "object_id": "1",
-                                    "object_repr": "PersonalData object (1)",
-                                    "action_flag": 2,
-                                    "change_message": "[]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 50,
-                                "fields": {
-                                    "action_time": "2023-07-22T11:36:11.645Z",
-                                    "user": 2,
-                                    "content_type": 14,
-                                    "object_id": "1",
-                                    "object_repr": "PersonalData object (1)",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 51,
-                                "fields": {
-                                    "action_time": "2023-07-23T13:52:40.840Z",
-                                    "user": 2,
-                                    "content_type": 9,
-                                    "object_id": "1",
-                                    "object_repr": "Experience object (1)",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"Start date\", \"End date\"]}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 52,
-                                "fields": {
-                                    "action_time": "2023-07-23T13:54:31.202Z",
-                                    "user": 2,
-                                    "content_type": 9,
-                                    "object_id": "2",
-                                    "object_repr": "Experience object (2)",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"Start date\", \"End date\", \"Is current\"]}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 53,
-                                "fields": {
-                                    "action_time": "2023-07-23T13:58:53.340Z",
-                                    "user": 2,
-                                    "content_type": 8,
-                                    "object_id": "1",
-                                    "object_repr": "Education object (1)",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"Start date\", \"End date\"]}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 54,
-                                "fields": {
-                                    "action_time": "2023-07-23T14:02:15.478Z",
-                                    "user": 2,
-                                    "content_type": 8,
-                                    "object_id": "2",
-                                    "object_repr": "Education object (2)",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"Start date\", \"End date\", \"Is current\"]}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 55,
-                                "fields": {
-                                    "action_time": "2023-07-23T15:19:19.888Z",
-                                    "user": 2,
-                                    "content_type": 8,
-                                    "object_id": "2",
-                                    "object_repr": "Education object (2)",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"Specialization\"]}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 56,
-                                "fields": {
-                                    "action_time": "2023-07-23T15:21:21.578Z",
-                                    "user": 2,
-                                    "content_type": 8,
-                                    "object_id": "1",
-                                    "object_repr": "Education object (1)",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"Specialization\"]}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 57,
-                                "fields": {
-                                    "action_time": "2023-07-23T18:59:57.917Z",
-                                    "user": 1,
-                                    "content_type": 14,
-                                    "object_id": "1",
-                                    "object_repr": "PersonalData object (1)",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"Summary\"]}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 58,
-                                "fields": {
-                                    "action_time": "2023-07-23T19:02:05.104Z",
-                                    "user": 1,
-                                    "content_type": 14,
-                                    "object_id": "1",
-                                    "object_repr": "PersonalData object (1)",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"Address\", \"Tel\", \"Email\"]}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 59,
-                                "fields": {
-                                    "action_time": "2023-07-23T19:06:34.795Z",
-                                    "user": 1,
-                                    "content_type": 14,
-                                    "object_id": "1",
-                                    "object_repr": "PersonalData object (1)",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"Quote\"]}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 60,
-                                "fields": {
-                                    "action_time": "2023-07-24T09:41:24.919Z",
-                                    "user": 1,
-                                    "content_type": 9,
-                                    "object_id": "2",
-                                    "object_repr": "Experience object (2)",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"Job description\"]}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 61,
-                                "fields": {
-                                    "action_time": "2023-07-24T09:50:30.364Z",
-                                    "user": 1,
-                                    "content_type": 9,
-                                    "object_id": "2",
-                                    "object_repr": "Experience object (2)",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"Job description\"]}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 62,
-                                "fields": {
-                                    "action_time": "2023-07-24T10:15:34.038Z",
-                                    "user": 1,
-                                    "content_type": 9,
-                                    "object_id": "2",
-                                    "object_repr": "Experience object (2)",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"Job description\"]}}]"
-                                }
-                            },
-                            {
-                                "model": "admin.logentry",
-                                "pk": 63,
-                                "fields": {
-                                    "action_time": "2023-07-24T12:16:42.539Z",
-                                    "user": 1,
-                                    "content_type": 14,
-                                    "object_id": "1",
-                                    "object_repr": "PersonalData object (1)",
-                                    "action_flag": 2,
-                                    "change_message": "[{\"changed\": {\"fields\": [\"Tel\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 64,
-                                    "fields": {
-                                        "action_time": "2023-07-24T12:20:21.166Z",
-                                        "user": 1,
-                                        "content_type": 14,
-                                        "object_id": "1",
-                                        "object_repr": "PersonalData object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Address\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 65,
-                                    "fields": {
-                                        "action_time": "2023-07-24T12:24:24.604Z",
-                                        "user": 1,
-                                        "content_type": 14,
-                                        "object_id": "1",
-                                        "object_repr": "PersonalData object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Bday\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 66,
-                                    "fields": {
-                                        "action_time": "2023-07-24T12:29:03.753Z",
-                                        "user": 1,
-                                        "content_type": 14,
-                                        "object_id": "1",
-                                        "object_repr": "PersonalData object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Website\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 67,
-                                    "fields": {
-                                        "action_time": "2023-07-24T13:12:18.951Z",
-                                        "user": 1,
-                                        "content_type": 14,
-                                        "object_id": "1",
-                                        "object_repr": "PersonalData object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Quote01\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 68,
-                                    "fields": {
-                                        "action_time": "2023-07-24T13:13:28.394Z",
-                                        "user": 1,
-                                        "content_type": 14,
-                                        "object_id": "1",
-                                        "object_repr": "PersonalData object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Quote02\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 69,
-                                    "fields": {
-                                        "action_time": "2023-07-24T13:14:42.746Z",
-                                        "user": 1,
-                                        "content_type": 14,
-                                        "object_id": "1",
-                                        "object_repr": "PersonalData object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Quote03\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 70,
-                                    "fields": {
-                                        "action_time": "2023-07-24T13:17:28.158Z",
-                                        "user": 1,
-                                        "content_type": 14,
-                                        "object_id": "1",
-                                        "object_repr": "PersonalData object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Quote04\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 71,
-                                    "fields": {
-                                        "action_time": "2023-07-24T13:18:08.024Z",
-                                        "user": 1,
-                                        "content_type": 14,
-                                        "object_id": "1",
-                                        "object_repr": "PersonalData object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Quote05\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 72,
-                                    "fields": {
-                                        "action_time": "2023-07-24T13:36:11.350Z",
-                                        "user": 1,
-                                        "content_type": 14,
-                                        "object_id": "1",
-                                        "object_repr": "PersonalData object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Quote06\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 73,
-                                    "fields": {
-                                        "action_time": "2023-07-24T14:14:27.193Z",
-                                        "user": 1,
-                                        "content_type": 14,
-                                        "object_id": "1",
-                                        "object_repr": "PersonalData object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Address\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 74,
-                                    "fields": {
-                                        "action_time": "2023-07-24T14:21:47.106Z",
-                                        "user": 1,
-                                        "content_type": 14,
-                                        "object_id": "1",
-                                        "object_repr": "PersonalData object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Address\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 75,
-                                    "fields": {
-                                        "action_time": "2023-07-25T12:46:40.726Z",
-                                        "user": 1,
-                                        "content_type": 17,
-                                        "object_id": "1",
-                                        "object_repr": "PortfolioProject object (1)",
-                                        "action_flag": 1,
-                                        "change_message": "[{\"added\": {}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 76,
-                                    "fields": {
-                                        "action_time": "2023-07-25T12:48:32.858Z",
-                                        "user": 1,
-                                        "content_type": 17,
-                                        "object_id": "2",
-                                        "object_repr": "PortfolioProject object (2)",
-                                        "action_flag": 1,
-                                        "change_message": "[{\"added\": {}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 77,
-                                    "fields": {
-                                        "action_time": "2023-07-25T17:17:21.991Z",
-                                        "user": 1,
-                                        "content_type": 17,
-                                        "object_id": "1",
-                                        "object_repr": "PortfolioProject object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 78,
-                                    "fields": {
-                                        "action_time": "2023-07-25T17:17:37.677Z",
-                                        "user": 1,
-                                        "content_type": 17,
-                                        "object_id": "2",
-                                        "object_repr": "PortfolioProject object (2)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 79,
-                                    "fields": {
-                                        "action_time": "2023-07-25T17:22:46.542Z",
-                                        "user": 1,
-                                        "content_type": 17,
-                                        "object_id": "2",
-                                        "object_repr": "PortfolioProject object (2)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 80,
-                                    "fields": {
-                                        "action_time": "2023-07-25T17:22:57.851Z",
-                                        "user": 1,
-                                        "content_type": 17,
-                                        "object_id": "1",
-                                        "object_repr": "PortfolioProject object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 81,
-                                    "fields": {
-                                        "action_time": "2023-07-26T10:26:39.312Z",
-                                        "user": 1,
-                                        "content_type": 17,
-                                        "object_id": "2",
-                                        "object_repr": "PortfolioProject object (2)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 82,
-                                    "fields": {
-                                        "action_time": "2023-07-26T10:26:46.485Z",
-                                        "user": 1,
-                                        "content_type": 17,
-                                        "object_id": "1",
-                                        "object_repr": "PortfolioProject object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 83,
-                                    "fields": {
-                                        "action_time": "2023-07-26T11:07:26.759Z",
-                                        "user": 1,
-                                        "content_type": 17,
-                                        "object_id": "2",
-                                        "object_repr": "PortfolioProject object (2)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "admin.logentry",
-                                    "pk": 84,
-                                    "fields": {
-                                        "action_time": "2023-07-26T11:07:36.718Z",
-                                        "user": 1,
-                                        "content_type": 17,
-                                        "object_id": "1",
-                                        "object_repr": "PortfolioProject object (1)",
-                                        "action_flag": 2,
-                                        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 1,
-                                    "fields": {
-                                        "name": "Can add log entry",
-                                        "content_type": 1,
-                                        "codename": "add_logentry"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 2,
-                                    "fields": {
-                                        "name": "Can change log entry",
-                                        "content_type": 1,
-                                        "codename": "change_logentry"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 3,
-                                    "fields": {
-                                        "name": "Can delete log entry",
-                                        "content_type": 1,
-                                        "codename": "delete_logentry"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 4,
-                                    "fields": {
-                                        "name": "Can view log entry",
-                                        "content_type": 1,
-                                        "codename": "view_logentry"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 5,
-                                    "fields": {
-                                        "name": "Can add permission",
-                                        "content_type": 2,
-                                        "codename": "add_permission"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 6,
-                                    "fields": {
-                                        "name": "Can change permission",
-                                        "content_type": 2,
-                                        "codename": "change_permission"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 7,
-                                    "fields": {
-                                        "name": "Can delete permission",
-                                        "content_type": 2,
-                                        "codename": "delete_permission"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 8,
-                                    "fields": {
-                                        "name": "Can view permission",
-                                        "content_type": 2,
-                                        "codename": "view_permission"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 9,
-                                    "fields": {
-                                        "name": "Can add group",
-                                        "content_type": 3,
-                                        "codename": "add_group"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 10,
-                                    "fields": {
-                                        "name": "Can change group",
-                                        "content_type": 3,
-                                        "codename": "change_group"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 11,
-                                    "fields": {
-                                        "name": "Can delete group",
-                                        "content_type": 3,
-                                        "codename": "delete_group"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 12,
-                                    "fields": {
-                                        "name": "Can view group",
-                                        "content_type": 3,
-                                        "codename": "view_group"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 13,
-                                    "fields": {
-                                        "name": "Can add user",
-                                        "content_type": 4,
-                                        "codename": "add_user"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 14,
-                                    "fields": {
-                                        "name": "Can change user",
-                                        "content_type": 4,
-                                        "codename": "change_user"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 15,
-                                    "fields": {
-                                        "name": "Can delete user",
-                                        "content_type": 4,
-                                        "codename": "delete_user"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 16,
-                                    "fields": {
-                                        "name": "Can view user",
-                                        "content_type": 4,
-                                        "codename": "view_user"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 17,
-                                    "fields": {
-                                        "name": "Can add content type",
-                                        "content_type": 5,
-                                        "codename": "add_contenttype"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 18,
-                                    "fields": {
-                                        "name": "Can change content type",
-                                        "content_type": 5,
-                                        "codename": "change_contenttype"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 19,
-                                    "fields": {
-                                        "name": "Can delete content type",
-                                        "content_type": 5,
-                                        "codename": "delete_contenttype"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 20,
-                                    "fields": {
-                                        "name": "Can view content type",
-                                        "content_type": 5,
-                                        "codename": "view_contenttype"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 21,
-                                    "fields": {
-                                        "name": "Can add session",
-                                        "content_type": 6,
-                                        "codename": "add_session"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 22,
-                                    "fields": {
-                                        "name": "Can change session",
-                                        "content_type": 6,
-                                        "codename": "change_session"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 23,
-                                    "fields": {
-                                        "name": "Can delete session",
-                                        "content_type": 6,
-                                        "codename": "delete_session"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 24,
-                                    "fields": {
-                                        "name": "Can view session",
-                                        "content_type": 6,
-                                        "codename": "view_session"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 25,
-                                    "fields": {
-                                        "name": "Can add skill",
-                                        "content_type": 7,
-                                        "codename": "add_skill"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 26,
-                                    "fields": {
-                                        "name": "Can change skill",
-                                        "content_type": 7,
-                                        "codename": "change_skill"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 27,
-                                    "fields": {
-                                        "name": "Can delete skill",
-                                        "content_type": 7,
-                                        "codename": "delete_skill"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 28,
-                                    "fields": {
-                                        "name": "Can view skill",
-                                        "content_type": 7,
-                                        "codename": "view_skill"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 29,
-                                    "fields": {
-                                        "name": "Can add education",
-                                        "content_type": 8,
-                                        "codename": "add_education"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 30,
-                                    "fields": {
-                                        "name": "Can change education",
-                                        "content_type": 8,
-                                        "codename": "change_education"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 31,
-                                    "fields": {
-                                        "name": "Can delete education",
-                                        "content_type": 8,
-                                        "codename": "delete_education"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 32,
-                                    "fields": {
-                                        "name": "Can view education",
-                                        "content_type": 8,
-                                        "codename": "view_education"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 33,
-                                    "fields": {
-                                        "name": "Can add experience",
-                                        "content_type": 9,
-                                        "codename": "add_experience"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 34,
-                                    "fields": {
-                                        "name": "Can change experience",
-                                        "content_type": 9,
-                                        "codename": "change_experience"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 35,
-                                    "fields": {
-                                        "name": "Can delete experience",
-                                        "content_type": 9,
-                                        "codename": "delete_experience"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 36,
-                                    "fields": {
-                                        "name": "Can view experience",
-                                        "content_type": 9,
-                                        "codename": "view_experience"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 37,
-                                    "fields": {
-                                        "name": "Can add social_ media_ links",
-                                        "content_type": 10,
-                                        "codename": "add_social_media_links"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 38,
-                                    "fields": {
-                                        "name": "Can change social_ media_ links",
-                                        "content_type": 10,
-                                        "codename": "change_social_media_links"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 39,
-                                    "fields": {
-                                        "name": "Can delete social_ media_ links",
-                                        "content_type": 10,
-                                        "codename": "delete_social_media_links"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 40,
-                                    "fields": {
-                                        "name": "Can view social_ media_ links",
-                                        "content_type": 10,
-                                        "codename": "view_social_media_links"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 41,
-                                    "fields": {
-                                    "name": "Can add social media", 
-                                    "content_type": 10, 
-                                    "codename": "add_socialmedia"}},
-                                    {"model": "auth.permission", 
-                                    "pk": 42, 
-                                    "fields": 
-                                        {"name": "Can change social media", 
-                                        "content_type": 10, 
-                                        "codename": "change_socialmedia"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 43, 
-                                    "fields": 
-                                        {"name": "Can delete social media", 
-                                        "content_type": 10, 
-                                        "codename": "delete_socialmedia"}}, 
-                                        {"model": "auth.permission",
-                                        "pk": 44,
-                                    "fields": 
-                                        {"name": "Can view social media", 
-                                        "content_type": 10, 
-                                        "codename": "view_socialmedia"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 45, 
-                                    "fields": 
-                                        {"name": "Can add fact",
-                                        "content_type": 11, 
-                                        "codename": "add_fact"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 46, 
-                                    "fields": 
-                                        {"name": "Can change fact",
-                                        "content_type": 11,
-                                        "codename": "change_fact"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 47, 
-                                    "fields": 
-                                        {"name": "Can delete fact", 
-                                        "content_type": 11, 
-                                        "codename": "delete_fact"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 48, 
-                                    "fields": 
-                                        {"name": "Can view fact", 
-                                        "content_type": 11, 
-                                        "codename": "view_fact"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 49, 
-                                    "fields": 
-                                        {"name": "Can add service", 
-                                        "content_type": 12, 
-                                        "codename": "add_service"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 50, 
-                                    "fields":
-                                        {"name": "Can change service", 
-                                        "content_type": 12, 
-                                        "codename": "change_service"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 51, 
-                                    "fields": 
-                                        {"name": "Can delete service", 
-                                        "content_type": 12, 
-                                        "codename": "delete_service"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 52, 
-                                    "fields": 
-                                        {"name": "Can view service",
-                                        "content_type": 12, 
-                                        "codename": "view_service"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 53, 
-                                    "fields": 
-                                        {"name": "Can add testimonial", 
-                                        "content_type": 13, 
-                                        "codename": "add_testimonial"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 54, 
-                                    "fields": 
-                                        {"name": "Can change testimonial", 
-                                        "content_type": 13, 
-                                        "codename": "change_testimonial"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 55, 
-                                    "fields": 
-                                        {"name": "Can delete testimonial", 
-                                        "content_type": 13, 
-                                        "codename": "delete_testimonial"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 56, 
-                                    "fields": 
-                                        {"name": "Can view testimonial", 
-                                        "content_type": 13, 
-                                        "codename": "view_testimonial"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 57, 
-                                    "fields": 
-                                        {"name": "Can add personal data", 
-                                        "content_type": 14, 
-                                        "codename": "add_personaldata"}}, 
-                                        {"model": "auth.permission", 
-                                        "pk": 58, 
-                                    "fields": 
-                                        {"name": "Can change personal data", 
-                                        "content_type": 14, "codename": "change_personaldata"}}, {"model": "auth.permission", "pk": 59, "fields": {"name": "Can delete personal data", "content_type": 14, "codename": "delete_personaldata"}}, {"model": "auth.permission", "pk": 60, "fields": {"name": "Can view personal data",
-                                        "content_type": 14,
-                                        "codename": "view_personaldata"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 61,
-                                    "fields": {
-                                        "name": "Can add contact",
-                                        "content_type": 15,
-                                        "codename": "add_contact"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 62,
-                                    "fields": {
-                                        "name": "Can change contact",
-                                        "content_type": 15,
-                                        "codename": "change_contact"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 63,
-                                    "fields": {
-                                        "name": "Can delete contact",
-                                        "content_type": 15,
-                                        "codename": "delete_contact"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 64,
-                                    "fields": {
-                                        "name": "Can view contact",
-                                        "content_type": 15,
-                                        "codename": "view_contact"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 65,
-                                    "fields": {
-                                        "name": "Can add message",
-                                        "content_type": 16,
-                                        "codename": "add_message"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 66,
-                                    "fields": {
-                                        "name": "Can change message",
-                                        "content_type": 16,
-                                        "codename": "change_message"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 67,
-                                    "fields": {
-                                        "name": "Can delete message",
-                                        "content_type": 16,
-                                        "codename": "delete_message"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 68,
-                                    "fields": {
-                                        "name": "Can view message",
-                                        "content_type": 16,
-                                        "codename": "view_message"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 69,
-                                    "fields": {
-                                        "name": "Can add portfolio project",
-                                        "content_type": 17,
-                                        "codename": "add_portfolioproject"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 70,
-                                    "fields": {
-                                        "name": "Can change portfolio project",
-                                        "content_type": 17,
-                                        "codename": "change_portfolioproject"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 71,
-                                    "fields": {
-                                        "name": "Can delete portfolio project",
-                                        "content_type": 17,
-                                        "codename": "delete_portfolioproject"
-                                    }
-                                },
-                                {
-                                    "model": "auth.permission",
-                                    "pk": 72,
-                                    "fields": {
-                                        "name": "Can view portfolio project",
-                                        "content_type": 17,
-                                        "codename": "view_portfolioproject"
-                                    }
-                                },
-                                {
-                                    "model": "auth.user",
-                                    "pk": 1,
-                                    "fields": {
-                                        "password": "pbkdf2_sha256$600000$fYq3qMmQQILkx4NuHxY746$l8oSZHDOVNkpavOXvqPxx0Ch04JG8Ihkhf5IYchk61Y=",
-                                        "last_login": "2023-07-23T18:58:56.146Z",
-                                        "is_superuser": true,
-                                        "username": "naira_asatryan",
-                                        "first_name": "",
-                                        "last_name": "",
-                                        "email": "asatryan.nairah@gmail.com",
-                                        "is_staff": true,
-                                        "is_active": true,
-                                        "date_joined": "2023-07-06T10:10:21.288Z",
-                                        "groups": [],
-                                        "user_permissions": []
-                                    }
-                                },
-                                {
-                                    "model": "auth.user",
-                                    "pk": 2,
-                                    "fields": {
-                                        "password": "pbkdf2_sha256$600000$JooIVX6nTAr7YMHRUp0f5B$3tTb+a69lTCO7y+4pI10jy5TT92KBqMv9SzVYeA8k7o=",
-                                        "last_login": "2023-07-09T15:43:56.577Z",
-                                        "is_superuser": true,
-                                        "username": "admin",
-                                        "first_name": "",
-                                        "last_name": "",
-                                        "email": "asatryan.nairah@gmail.com",
-                                        "is_staff": true,
-                                        "is_active": true,
-                                        "date_joined": "2023-07-09T15:43:22.479Z",
-                                        "groups": [],
-                                        "user_permissions": []
-                                    }
-                                },
-                                {
-                                    "model": "auth.user",
-                                    "pk": 3,
-                                    "fields": {
-                                        "password": "pbkdf2_sha256$600000$V5SG4NWPs9XaPS9lHOafZj$nr5y2RYFXJQNf/LigQ8NWKmGxYTOrBxZH0HYGlC7phA=",
-                                        "last_login": null,
-                                        "is_superuser": false,
-                                        "username": "proxy",
-                                        "first_name": "N",
-                                        "last_name": "A",
-                                        "email": "asatriannara7@gmail.com",
-                                        "is_staff": false,
-                                        "is_active": true,
-                                        "date_joined": "2023-07-18T06:20:57Z",
-                                        "groups": [],
-                                        "user_permissions": []
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 1,
-                                    "fields": {
-                                        "app_label": "admin",
-                                        "model": "logentry"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 2,
-                                    "fields": {
-                                        "app_label": "auth",
-                                        "model": "permission"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 3,
-                                    "fields": {
-                                        "app_label": "auth",
-                                        "model": "group"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 4,
-                                    "fields": {
-                                        "app_label": "auth",
-                                        "model": "user"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 5,
-                                    "fields": {
-                                        "app_label": "contenttypes",
-                                        "model": "contenttype"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 6,
-                                    "fields": {
-                                        "app_label": "sessions",
-                                        "model": "session"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 7,
-                                    "fields": {
-                                        "app_label": "resume",
-                                        "model": "skill"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 8,
-                                    "fields": {
-                                        "app_label": "resume",
-                                        "model": "education"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 9,
-                                    "fields": {
-                                        "app_label": "resume",
-                                        "model": "experience"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 10,
-                                    "fields": {
-                                        "app_label": "resume",
-                                        "model": "socialmedia"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 11,
-                                    "fields": {
-                                        "app_label": "resume",
-                                        "model": "fact"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 12,
-                                    "fields": {
-                                        "app_label": "resume",
-                                        "model": "service"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 13,
-                                    "fields": {
-                                        "app_label": "resume",
-                                        "model": "testimonial"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 14,
-                                    "fields": {
-                                        "app_label": "resume",
-                                        "model": "personaldata"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 15,
-                                    "fields": {
-                                        "app_label": "resume",
-                                        "model": "contact"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 16,
-                                    "fields": {
-                                        "app_label": "resume",
-                                        "model": "message"
-                                    }
-                                },
-                                {
-                                    "model": "contenttypes.contenttype",
-                                    "pk": 17,
-                                    "fields": {
-                                        "app_label": "resume",
-                                        "model": "portfolioproject"
-                                    }
-                                },
-                                {
-                                    "model": "sessions.session",
-                                    "pk": "bygq01l68g9aci5b5laz114ophx12gdc",
-                                    "fields": {
-                                        "session_data": ".eJxVjEEOwiAQRe_C2hBKgQGX7nsGMsOgVA0kpV0Z765NutDtf-_9l4i4rSVuPS9xZnEWWpx-N8L0yHUHfMd6azK1ui4zyV2RB-1yapyfl8P9OyjYy7dOlj0Zx1oBeSa-mjB4j85oFWDkFDKQDQM5HFGrjMarBIYUW2INYMT7A-jkN9Q:1qIWZo:r2qwFPEukKoXQIiQ203NurdCXBNKWu_skLvcNir0ojo",
-                                        "expire_date": "2023-07-23T15:43:56.585Z"
-                                    }
-                                },
-                                {
-                                    "model": "sessions.session",
-                                    "pk": "nz4a7df1ku1a8f159hkvgak0sf8g18r3",
-                                    "fields": {
-                                        "session_data": ".eJxVjEEOwiAQRe_C2pABLAWX7nuGZoYZbNVAUtqV8e7apAvd_vfef6kRt3UatybLOLO6KKNOvxthekjZAd-x3KpOtazLTHpX9EGbHirL83q4fwcTtulb9-DRU4iOY0ABB0jCqQf2Ys_kIIPtYpbsyYKRYJBtAKCQCcR1BtT7A-j-N-Q:1qNeIC:6GZqkZKfrmn7U7t3eUD4sIS6jxkrOq-3tQ5rY1hckq4",
-                                        "expire_date": "2023-08-06T18:58:56.172Z"
-                                    }
-                                },
-                                {
-                                    "model": "resume.skill",
-                                    "pk": 1,
-                                    "fields": {
-                                        "name": "WordPress/CMS",
-                                        "value": 85
-                                    }
-                                },
-                                {
-                                    "model": "resume.skill",
-                                    "pk": 2,
-                                    "fields": {
-                                        "name": "HTML",
-                                        "value": 55
-                                    }
-                                },
-                                {
-                                    "model": "resume.skill",
-                                    "pk": 3,
-                                    "fields": {
-                                        "name": "Linux",
-                                        "value": 60
-                                    }
-                                },
-                                {
-                                    "model": "resume.skill",
-                                    "pk": 4,
-                                    "fields": {
-                                        "name": "GitHub",
-                                        "value": 65
-                                    }
-                                },
-                                {
-                                    "model": "resume.skill",
-                                    "pk": 5,
-                                    "fields": {
-                                        "name": "CSS",
-                                        "value": 40
-                                    }
-                                },
-                                {
-                                    "model": "resume.skill",
-                                    "pk": 6,
-                                    "fields": {
-                                        "name": "Photoshop",
-                                        "value": 75
-                                    }
-                                },
-                                {
-                                    "model": "resume.education",
-                                    "pk": 1,
-                                    "fields": {
-                                        "university_name": "Yerevan State Linguistic University after V. Brusov",
-                                        "start_date": 2005,
-                                        "end_date": 2009,
-                                        "is_current": null,
-                                        "grade": "Bachelor Degree of Linguistics",
-                                        "specialization": "Specialization - The Faculty of Russian Language, Literature and Foreign Languages",
-                                        "created_on": "2023-07-23T15:21:21.573Z"
-                                    }
-                                },
-                                {
-                                    "model": "resume.education",
-                                    "pk": 2,
-                                    "fields": {
-                                        "university_name": "Armenian Virtual College",
-                                        "start_date": 2023,
-                                        "end_date": null,
-                                        "is_current": true,
-                                        "grade": "Web Development Intern",
-                                        "specialization": "Specialization - Python Programming Language. Trainings - Course of Linux OS; Django framework for building web applications; HTML, CSS integration; Working with database using OOP tools.",
-                                        "created_on": "2023-07-23T15:19:19.883Z"
-                                    }
-                                },
-                                {
-                                    "model": "resume.experience",
-                                    "pk": 1,
-                                    "fields": {
-                                        "job_position": "Russian language & literature teacher",
-                                        "start_date": 2009,
-                                        "end_date": 2011,
-                                        "is_current": false,
-                                        "address": "Vayk, Vayots Dzor Province, Armenia",
-                                        "job_description": "Developing and issuing educational content including notes, tests, and assignments.\r\nSupervising classes to ensure all students are learning in a safe and productive environment.\r\nOrganizing supplies and resources for lectures and presentations.\r\nDelivering personalized instruction to each student by encouraging interactive learning.\r\nPreparing and distributing periodic progress reports and semester report cards.\r\nAttending parent-teacher meetings.\r\nEvaluating and documenting students’ progress.\r\nAllocating and grading homework, assignments, and tests.",
-                                        "company_name": "High School no. 1"
-                                    }
-                                },
-                                {
-                                    "model": "resume.experience",
-                                    "pk": 2,
-                                    "fields": {
-                                        "job_position": "Russian language & literature teacher",
-                                        "start_date": 2011,
-                                        "end_date": null,
-                                        "is_current": true,
-                                        "address": "Vayk, Vayots Dzor Province, Armenia",
-                                        "job_description": "Developing and issuing educational content including notes, tests, and assignments./n\r\nOrganizing supplies and resources for lectures and presentations./n\r\nPreparing and distributing periodic progress reports and semester report cards./n\r\nEvaluating and documenting students’ progress./n",
-                                        "company_name": "Primary School of Vayk City"
-                                    }
-                                },
-                                {
-                                    "model": "resume.socialmedia",
-                                    "pk": 1,
-                                    "fields": {
-                                        "platform_name": "GitHub",
-                                        "url": "https://github.com/nairaasa"
-                                    }
-                                },
-                                {
-                                    "model": "resume.socialmedia",
-                                    "pk": 2,
-                                    "fields": {
-                                        "platform_name": "Linkedin",
-                                        "url": "https://www.linkedin.com/in/naira-assatrian-ba541b265"
-                                    }
-                                },
-                                {
-                                    "model": "resume.socialmedia",
-                                    "pk": 3,
-                                    "fields": {
-                                        "platform_name": "Instagram",
-                                        "url": "https://www.instagram.com/asana8834"
-                                    }
-                                },
-                                {
-                                    "model": "resume.socialmedia",
-                                    "pk": 4,
-                                    "fields": {
-                                        "platform_name": "Facebook",
-                                        "url": "https://www.facebook.com/nara.asatrian.5"
-                                    }
-                                },
-                                {
-                                    "model": "resume.fact",
-                                    "pk": 1,
-                                    "fields": {
-                                        "name": "Clients",
-                                        "value": 100
-                                    }
-                                },
-                                {
-                                    "model": "resume.fact",
-                                    "pk": 2,
-                                    "fields": {
-                                        "name": "Projects",
-                                        "value": 1
-                                    }
-                                },
-                                {
-                                    "model": "resume.fact",
-                                    "pk": 3,
-                                    "fields": {
-                                        "name": "Hours Of Support",
-                                        "value": 1500
-                                    }
-                                },
-                                {
-                                    "model": "resume.fact",
-                                    "pk": 4,
-                                    "fields": {
-                                        "name": "Hard Workers",
-                                        "value": 15
-                                    }
-                                },
-                                {
-                                    "model": "resume.service",
-                                    "pk": 1,
-                                    "fields": {
-                                        "service_name": "Interpreting Services",
-                                        "service_description": "Language combinations in which interpreting services are offered: from Russian, Bulgarian into Armenian."
-                                    }
-                                },
-                                {
-                                    "model": "resume.service",
-                                    "pk": 2,
-                                    "fields": {
-                                        "service_name": "Language Teaching Service",
-                                        "service_description": "Group classes: This service can be offered for Russian, English, Bulgarian and Armenian languages."
-                                    }
-                                },
-                                {
-                                    "model": "resume.service",
-                                    "pk": 3,
-                                    "fields": {
-                                        "service_name": "Web Development",
-                                        "service_description": "This service involves creating visually appealing and functional websites tailored to the client's needs."
-                                    }
-                                },
-                                {
-                                    "model": "resume.service",
-                                    "pk": 4,
-                                    "fields": {
-                                        "service_name": "Content Writing/Copywriting",
-                                        "service_description": "Crafting engaging and persuasive content for websites, blogs, marketing materials, and more."
-                                    }
-                                },
-                                {
-                                    "model": "resume.service",
-                                    "pk": 5,
-                                    "fields": {
-                                        "service_name": "Virtual Classroom Management",
-                                        "service_description": "Demonstrating proficiency in managing online classrooms and virtual learning environments."
-                                    }
-                                },
-                                {
-                                    "model": "resume.service",
-                                    "pk": 6,
-                                    "fields": {
-                                        "service_name": "Accounting and Bookkeeping",
-                                        "service_description": "Offering comprehensive accounting and bookkeeping services for businesses. This could include managing financial records, reconciling accounts, processing invoices."
-                                    }
-                                },
-                                {
-                                    "model": "resume.personaldata",
-                                    "pk": 1,
-                                    "fields": {
-                                        "first_name": "Naira",
-                                        "last_name": "Assatrian",
-                                        "who_i_am": "Russian Tutor & Teacher, Interpreter, Freelancer",
-                                        "summary": "Dedicated, warm and caring teacher with 10+ years of experience who wants all children to be successful learners. Able to develop personal relationships with students and build their abilities.",
-                                        "address": "Vayk 3801, Armenia", 
-                                        "tel": "+374 98 652 343", 
-                                        "email": "asatryan.nairah@gmail.com", 
-                                        "bday": "31 March 1988", 
-                                        "website": "nairaasa.pythonanywhere.com", "quote": "\"Education is the foundation of knowledge, and experience is the cornerstone of wisdom. Embrace every opportunity to learn, grow, and evolve in your professional journey, for it is the sum of your experiences that shapes your true expertise.\"",
-                                        "quote01": "A person with passion and purpose.",
-                                        "quote02": "Чтобы воспитывать другого, мы должны воспитать прежде всего себя. (Николай Васильевич Гоголь)",
-                                        "quote03": "My objective is to instill a love for literature, foster critical thinking skills, and provide historical and cultural context to enhance the understanding of Russian literary masterpieces. Giuding students through the exploration of classic novels, plays, and poetry, encouraging them to delve into the intricacies of the Russian literary tradition.",
-                                        "quote04": "Skills are the building blocks that transform potential into reality, unlocking doors to endless possibilities and shaping our journey towards success.",
-                                        "quote05": "In a world often clouded by opinions and subjective interpretations, facts shine like beacons of clarity, guiding us towards understanding and informed decision-making. Embrace the power of facts, for they hold the key to unlocking the doors of wisdom and progress.",
-                                        "quote06": "My contact information you will find here. Use any other communication channels I have made available on this website. Publicly available sources like social media profiles or networking platforms you can find also.",
-                                        "user": 1
-                                    }
-                                },
-                                {
-                                    "model": "resume.contact",
-                                    "pk": 1,
-                                    "fields": {
-                                        "location": "Shahumyan Street, 3801 Vayk, Armenia",
-                                        "email": "asatryan.nairah@gmail.com",
-                                        "phone": 37498652343
-                                    }
-                                },
-                                {
-                                    "model": "resume.message",
-                                    "pk": 9,
-                                    "fields": {
-                                        "full_name": "vvvvv",
-                                        "email": "asatriannara7@gmail.com",
-                                        "subject": "vvvvvvv",
-                                        "message": "nnnnnnnnnnn"
-                                    }
-                                },
-                                {
-                                    "model": "resume.message",
-                                    "pk": 10,
-                                    "fields": {
-                                        "full_name": "vvvvv",
-                                        "email": "asatriannara7@gmail.com",
-                                        "subject": "vvvvvvv",
-                                        "message": "zzzzzzz"
-                                    }
-                                },
-                                {
-                                    "model": "resume.message",
-                                    "pk": 11,
-                                    "fields": {
-                                        "full_name": "ggggggggg",
-                                        "email": "asatriannara7@gmail.com",
-                                        "subject": "bbb",
-                                        "message": "mmmmmmmm"
-                                    }
-                                },
-                                {
-                                    "model": "resume.message",
-                                    "pk": 12,
-                                    "fields": {
-                                        "full_name": "vvvvv",
-                                        "email": "n@mail.ru",
-                                        "subject": "vvvvvvv",
-                                        "message": "zzzzzzzz"
-                                    }
-                                },
-                                {
-                                    "model": "resume.portfolioproject",
-                                    "pk": 1,
-                                    "fields": {
-                                        "name": "Armenia",
-                                        "image": "media/IMG_2023.jpg",
-                                        "short_description": "Beauty",
-                                        "description": "Vayoc sar"
-                                    }
-                                },
-                                {
-                                    "model": "resume.portfolioproject",
-                                    "pk": 2,
-                                    "fields": {
-                                        "name": "Hayastan",
-                                        "image": "media/IMG_2022.jpg",
-                                        "short_description": "Beauty2",
-                                        "description": "Vardablur"
-                                    }
-                                }
-                            ]
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2023-07-06T15:04:20.614Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Fact object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2023-07-06T15:04:50.495Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Fact object (2)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2023-07-06T15:05:44.500Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "3",
+            "object_repr": "Fact object (3)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2023-07-06T15:06:04.873Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "4",
+            "object_repr": "Fact object (4)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2023-07-10T14:13:51.317Z",
+            "user": 2,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2023-07-10T14:43:40.670Z",
+            "user": 2,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2023-07-10T17:19:39.696Z",
+            "user": 2,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Who i am\", \"Logo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2023-07-10T17:58:04.915Z",
+            "user": 2,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Last name\", \"Who i am\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2023-07-10T18:42:57.349Z",
+            "user": 2,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "High School no. 1, job position - Russian language & literature teacher",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Job description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2023-07-10T18:45:29.102Z",
+            "user": 2,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "High School no. 1, job position - Russian language & literature teacher",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Job description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2023-07-13T10:55:59.749Z",
+            "user": 2,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Yerevan State Linguistic University after V. Brusov, Bachelor Degree of Linguistics's degree",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Grade\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2023-07-13T11:07:54.499Z",
+            "user": 2,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Armenian Virtual College, Web Development Intern's degree",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Grade\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2023-07-13T11:23:40.260Z",
+            "user": 2,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Primary School of Vayk City, job position - Russian language & literature teacher",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2023-07-13T14:19:37.565Z",
+            "user": 2,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Service object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2023-07-13T14:25:44.321Z",
+            "user": 2,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "Service object (2)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2023-07-13T14:28:12.084Z",
+            "user": 2,
+            "content_type": 12,
+            "object_id": "3",
+            "object_repr": "Service object (3)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2023-07-13T15:08:27.201Z",
+            "user": 2,
+            "content_type": 15,
+            "object_id": "1",
+            "object_repr": "Contact object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2023-07-13T15:08:42.394Z",
+            "user": 2,
+            "content_type": 15,
+            "object_id": "1",
+            "object_repr": "Contact object (1)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2023-07-17T09:55:02.148Z",
+            "user": 2,
+            "content_type": 12,
+            "object_id": "4",
+            "object_repr": "Service object (4)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2023-07-17T10:02:07.730Z",
+            "user": 2,
+            "content_type": 12,
+            "object_id": "5",
+            "object_repr": "Service object (5)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2023-07-17T10:05:02.692Z",
+            "user": 2,
+            "content_type": 12,
+            "object_id": "6",
+            "object_repr": "Service object (6)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2023-07-17T12:39:58.092Z",
+            "user": 2,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Linkedin account",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2023-07-17T12:40:31.413Z",
+            "user": 2,
+            "content_type": 10,
+            "object_id": "3",
+            "object_repr": "Instagram account",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2023-07-17T12:40:54.910Z",
+            "user": 2,
+            "content_type": 10,
+            "object_id": "4",
+            "object_repr": "Facebook account",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2023-07-18T06:20:58.047Z",
+            "user": 2,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "proxy",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2023-07-18T06:22:45.113Z",
+            "user": 2,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "proxy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2023-07-21T09:34:18.005Z",
+            "user": 2,
+            "content_type": 16,
+            "object_id": "8",
+            "object_repr": "Message object (8)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2023-07-21T09:34:18.045Z",
+            "user": 2,
+            "content_type": 16,
+            "object_id": "7",
+            "object_repr": "Message object (7)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2023-07-21T09:34:18.052Z",
+            "user": 2,
+            "content_type": 16,
+            "object_id": "6",
+            "object_repr": "Message object (6)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2023-07-21T09:34:18.090Z",
+            "user": 2,
+            "content_type": 16,
+            "object_id": "5",
+            "object_repr": "Message object (5)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2023-07-21T09:34:18.119Z",
+            "user": 2,
+            "content_type": 16,
+            "object_id": "4",
+            "object_repr": "Message object (4)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2023-07-21T09:34:18.149Z",
+            "user": 2,
+            "content_type": 16,
+            "object_id": "3",
+            "object_repr": "Message object (3)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 47,
+        "fields": {
+            "action_time": "2023-07-21T09:34:18.171Z",
+            "user": 2,
+            "content_type": 16,
+            "object_id": "2",
+            "object_repr": "Message object (2)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 48,
+        "fields": {
+            "action_time": "2023-07-21T09:34:18.257Z",
+            "user": 2,
+            "content_type": 16,
+            "object_id": "1",
+            "object_repr": "Message object (1)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 49,
+        "fields": {
+            "action_time": "2023-07-21T15:58:00.147Z",
+            "user": 2,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 50,
+        "fields": {
+            "action_time": "2023-07-22T11:36:11.645Z",
+            "user": 2,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 51,
+        "fields": {
+            "action_time": "2023-07-23T13:52:40.840Z",
+            "user": 2,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Experience object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Start date\", \"End date\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 52,
+        "fields": {
+            "action_time": "2023-07-23T13:54:31.202Z",
+            "user": 2,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Experience object (2)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Start date\", \"End date\", \"Is current\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 53,
+        "fields": {
+            "action_time": "2023-07-23T13:58:53.340Z",
+            "user": 2,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Education object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Start date\", \"End date\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 54,
+        "fields": {
+            "action_time": "2023-07-23T14:02:15.478Z",
+            "user": 2,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Education object (2)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Start date\", \"End date\", \"Is current\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 55,
+        "fields": {
+            "action_time": "2023-07-23T15:19:19.888Z",
+            "user": 2,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Education object (2)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Specialization\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 56,
+        "fields": {
+            "action_time": "2023-07-23T15:21:21.578Z",
+            "user": 2,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Education object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Specialization\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 57,
+        "fields": {
+            "action_time": "2023-07-23T18:59:57.917Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Summary\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 58,
+        "fields": {
+            "action_time": "2023-07-23T19:02:05.104Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Address\", \"Tel\", \"Email\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 59,
+        "fields": {
+            "action_time": "2023-07-23T19:06:34.795Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quote\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 60,
+        "fields": {
+            "action_time": "2023-07-24T09:41:24.919Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Experience object (2)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Job description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 61,
+        "fields": {
+            "action_time": "2023-07-24T09:50:30.364Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Experience object (2)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Job description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 62,
+        "fields": {
+            "action_time": "2023-07-24T10:15:34.038Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Experience object (2)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Job description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 63,
+        "fields": {
+            "action_time": "2023-07-24T12:16:42.539Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Tel\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 64,
+        "fields": {
+            "action_time": "2023-07-24T12:20:21.166Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Address\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 65,
+        "fields": {
+            "action_time": "2023-07-24T12:24:24.604Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Bday\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 66,
+        "fields": {
+            "action_time": "2023-07-24T12:29:03.753Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Website\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 67,
+        "fields": {
+            "action_time": "2023-07-24T13:12:18.951Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quote01\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 68,
+        "fields": {
+            "action_time": "2023-07-24T13:13:28.394Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quote02\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 69,
+        "fields": {
+            "action_time": "2023-07-24T13:14:42.746Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quote03\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 70,
+        "fields": {
+            "action_time": "2023-07-24T13:17:28.158Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quote04\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 71,
+        "fields": {
+            "action_time": "2023-07-24T13:18:08.024Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quote05\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 72,
+        "fields": {
+            "action_time": "2023-07-24T13:36:11.350Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Quote06\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 73,
+        "fields": {
+            "action_time": "2023-07-24T14:14:27.193Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Address\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 74,
+        "fields": {
+            "action_time": "2023-07-24T14:21:47.106Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "PersonalData object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Address\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 75,
+        "fields": {
+            "action_time": "2023-07-25T12:46:40.726Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "1",
+            "object_repr": "PortfolioProject object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 76,
+        "fields": {
+            "action_time": "2023-07-25T12:48:32.858Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "2",
+            "object_repr": "PortfolioProject object (2)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 77,
+        "fields": {
+            "action_time": "2023-07-25T17:17:21.991Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "1",
+            "object_repr": "PortfolioProject object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 78,
+        "fields": {
+            "action_time": "2023-07-25T17:17:37.677Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "2",
+            "object_repr": "PortfolioProject object (2)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 79,
+        "fields": {
+            "action_time": "2023-07-25T17:22:46.542Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "2",
+            "object_repr": "PortfolioProject object (2)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 80,
+        "fields": {
+            "action_time": "2023-07-25T17:22:57.851Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "1",
+            "object_repr": "PortfolioProject object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 81,
+        "fields": {
+            "action_time": "2023-07-26T10:26:39.312Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "2",
+            "object_repr": "PortfolioProject object (2)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 82,
+        "fields": {
+            "action_time": "2023-07-26T10:26:46.485Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "1",
+            "object_repr": "PortfolioProject object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 83,
+        "fields": {
+            "action_time": "2023-07-26T11:07:26.759Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "2",
+            "object_repr": "PortfolioProject object (2)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 84,
+        "fields": {
+            "action_time": "2023-07-26T11:07:36.718Z",
+            "user": 1,
+            "content_type": 17,
+            "object_id": "1",
+            "object_repr": "PortfolioProject object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add skill",
+            "content_type": 7,
+            "codename": "add_skill"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change skill",
+            "content_type": 7,
+            "codename": "change_skill"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete skill",
+            "content_type": 7,
+            "codename": "delete_skill"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view skill",
+            "content_type": 7,
+            "codename": "view_skill"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add education",
+            "content_type": 8,
+            "codename": "add_education"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change education",
+            "content_type": 8,
+            "codename": "change_education"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete education",
+            "content_type": 8,
+            "codename": "delete_education"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view education",
+            "content_type": 8,
+            "codename": "view_education"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add experience",
+            "content_type": 9,
+            "codename": "add_experience"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change experience",
+            "content_type": 9,
+            "codename": "change_experience"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete experience",
+            "content_type": 9,
+            "codename": "delete_experience"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view experience",
+            "content_type": 9,
+            "codename": "view_experience"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add social_ media_ links",
+            "content_type": 10,
+            "codename": "add_social_media_links"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change social_ media_ links",
+            "content_type": 10,
+            "codename": "change_social_media_links"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete social_ media_ links",
+            "content_type": 10,
+            "codename": "delete_social_media_links"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view social_ media_ links",
+            "content_type": 10,
+            "codename": "view_social_media_links"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add social media",
+            "content_type": 10,
+            "codename": "add_socialmedia"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change social media",
+            "content_type": 10,
+            "codename": "change_socialmedia"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete social media",
+            "content_type": 10,
+            "codename": "delete_socialmedia"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view social media",
+            "content_type": 10,
+            "codename": "view_socialmedia"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add fact",
+            "content_type": 11,
+            "codename": "add_fact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change fact",
+            "content_type": 11,
+            "codename": "change_fact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete fact",
+            "content_type": 11,
+            "codename": "delete_fact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view fact",
+            "content_type": 11,
+            "codename": "view_fact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add service",
+            "content_type": 12,
+            "codename": "add_service"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change service",
+            "content_type": 12,
+            "codename": "change_service"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete service",
+            "content_type": 12,
+            "codename": "delete_service"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view service",
+            "content_type": 12,
+            "codename": "view_service"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 53,
+        "fields": {
+            "name": "Can add testimonial",
+            "content_type": 13,
+            "codename": "add_testimonial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 54,
+        "fields": {
+            "name": "Can change testimonial",
+            "content_type": 13,
+            "codename": "change_testimonial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 55,
+        "fields": {
+            "name": "Can delete testimonial",
+            "content_type": 13,
+            "codename": "delete_testimonial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 56,
+        "fields": {
+            "name": "Can view testimonial",
+            "content_type": 13,
+            "codename": "view_testimonial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 57,
+        "fields": {
+            "name": "Can add personal data",
+            "content_type": 14,
+            "codename": "add_personaldata"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 58,
+        "fields": {
+            "name": "Can change personal data",
+            "content_type": 14,
+            "codename": "change_personaldata"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 59,
+        "fields": {
+            "name": "Can delete personal data",
+            "content_type": 14,
+            "codename": "delete_personaldata"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 60,
+        "fields": {
+            "name": "Can view personal data",
+            "content_type": 14,
+            "codename": "view_personaldata"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 61,
+        "fields": {
+            "name": "Can add contact",
+            "content_type": 15,
+            "codename": "add_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 62,
+        "fields": {
+            "name": "Can change contact",
+            "content_type": 15,
+            "codename": "change_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 63,
+        "fields": {
+            "name": "Can delete contact",
+            "content_type": 15,
+            "codename": "delete_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 64,
+        "fields": {
+            "name": "Can view contact",
+            "content_type": 15,
+            "codename": "view_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 65,
+        "fields": {
+            "name": "Can add message",
+            "content_type": 16,
+            "codename": "add_message"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 66,
+        "fields": {
+            "name": "Can change message",
+            "content_type": 16,
+            "codename": "change_message"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 67,
+        "fields": {
+            "name": "Can delete message",
+            "content_type": 16,
+            "codename": "delete_message"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 68,
+        "fields": {
+            "name": "Can view message",
+            "content_type": 16,
+            "codename": "view_message"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 69,
+        "fields": {
+            "name": "Can add portfolio project",
+            "content_type": 17,
+            "codename": "add_portfolioproject"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 70,
+        "fields": {
+            "name": "Can change portfolio project",
+            "content_type": 17,
+            "codename": "change_portfolioproject"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 71,
+        "fields": {
+            "name": "Can delete portfolio project",
+            "content_type": 17,
+            "codename": "delete_portfolioproject"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 72,
+        "fields": {
+            "name": "Can view portfolio project",
+            "content_type": 17,
+            "codename": "view_portfolioproject"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$fYq3qMmQQILkx4NuHxY746$l8oSZHDOVNkpavOXvqPxx0Ch04JG8Ihkhf5IYchk61Y=",
+            "last_login": "2023-07-23T18:58:56.146Z",
+            "is_superuser": true,
+            "username": "naira_asatryan",
+            "first_name": "",
+            "last_name": "",
+            "email": "asatryan.nairah@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-07-06T10:10:21.288Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$JooIVX6nTAr7YMHRUp0f5B$3tTb+a69lTCO7y+4pI10jy5TT92KBqMv9SzVYeA8k7o=",
+            "last_login": "2023-07-09T15:43:56.577Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "asatryan.nairah@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-07-09T15:43:22.479Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$V5SG4NWPs9XaPS9lHOafZj$nr5y2RYFXJQNf/LigQ8NWKmGxYTOrBxZH0HYGlC7phA=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "proxy",
+            "first_name": "N",
+            "last_name": "A",
+            "email": "asatriannara7@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-07-18T06:20:57Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "resume",
+            "model": "skill"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "resume",
+            "model": "education"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "resume",
+            "model": "experience"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "resume",
+            "model": "socialmedia"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "resume",
+            "model": "fact"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "resume",
+            "model": "service"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 13,
+        "fields": {
+            "app_label": "resume",
+            "model": "testimonial"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 14,
+        "fields": {
+            "app_label": "resume",
+            "model": "personaldata"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 15,
+        "fields": {
+            "app_label": "resume",
+            "model": "contact"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 16,
+        "fields": {
+            "app_label": "resume",
+            "model": "message"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 17,
+        "fields": {
+            "app_label": "resume",
+            "model": "portfolioproject"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "bygq01l68g9aci5b5laz114ophx12gdc",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2hBKgQGX7nsGMsOgVA0kpV0Z765NutDtf-_9l4i4rSVuPS9xZnEWWpx-N8L0yHUHfMd6azK1ui4zyV2RB-1yapyfl8P9OyjYy7dOlj0Zx1oBeSa-mjB4j85oFWDkFDKQDQM5HFGrjMarBIYUW2INYMT7A-jkN9Q:1qIWZo:r2qwFPEukKoXQIiQ203NurdCXBNKWu_skLvcNir0ojo",
+            "expire_date": "2023-07-23T15:43:56.585Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "nz4a7df1ku1a8f159hkvgak0sf8g18r3",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pABLAWX7nuGZoYZbNVAUtqV8e7apAvd_vfef6kRt3UatybLOLO6KKNOvxthekjZAd-x3KpOtazLTHpX9EGbHirL83q4fwcTtulb9-DRU4iOY0ABB0jCqQf2Ys_kIIPtYpbsyYKRYJBtAKCQCcR1BtT7A-j-N-Q:1qNeIC:6GZqkZKfrmn7U7t3eUD4sIS6jxkrOq-3tQ5rY1hckq4",
+            "expire_date": "2023-08-06T18:58:56.172Z"
+        }
+    },
+    {
+        "model": "resume.skill",
+        "pk": 1,
+        "fields": {
+            "name": "WordPress/CMS",
+            "value": 85
+        }
+    },
+    {
+        "model": "resume.skill",
+        "pk": 2,
+        "fields": {
+            "name": "HTML",
+            "value": 55
+        }
+    },
+    {
+        "model": "resume.skill",
+        "pk": 3,
+        "fields": {
+            "name": "Linux",
+            "value": 60
+        }
+    },
+    {
+        "model": "resume.skill",
+        "pk": 4,
+        "fields": {
+            "name": "GitHub",
+            "value": 65
+        }
+    },
+    {
+        "model": "resume.skill",
+        "pk": 5,
+        "fields": {
+            "name": "CSS",
+            "value": 40
+        }
+    },
+    {
+        "model": "resume.skill",
+        "pk": 6,
+        "fields": {
+            "name": "Photoshop",
+            "value": 75
+        }
+    },
+    {
+        "model": "resume.education",
+        "pk": 1,
+        "fields": {
+            "university_name": "Yerevan State Linguistic University after V. Brusov",
+            "start_date": 2005,
+            "end_date": 2009,
+            "is_current": null,
+            "grade": "Bachelor Degree of Linguistics",
+            "specialization": "Specialization - The Faculty of Russian Language, Literature and Foreign Languages",
+            "created_on": "2023-07-23T15:21:21.573Z"
+        }
+    },
+    {
+        "model": "resume.education",
+        "pk": 2,
+        "fields": {
+            "university_name": "Armenian Virtual College",
+            "start_date": 2023,
+            "end_date": null,
+            "is_current": true,
+            "grade": "Web Development Intern",
+            "specialization": "Specialization - Python Programming Language. Trainings - Course of Linux OS; Django framework for building web applications; HTML, CSS integration; Working with database using OOP tools.",
+            "created_on": "2023-07-23T15:19:19.883Z"
+        }
+    },
+    {
+        "model": "resume.experience",
+        "pk": 1,
+        "fields": {
+            "job_position": "Russian language & literature teacher",
+            "start_date": 2009,
+            "end_date": 2011,
+            "is_current": false,
+            "address": "Vayk, Vayots Dzor Province, Armenia",
+            "job_description": "Developing and issuing educational content including notes, tests, and assignments.\r\nSupervising classes to ensure all students are learning in a safe and productive environment.\r\nOrganizing supplies and resources for lectures and presentations.\r\nDelivering personalized instruction to each student by encouraging interactive learning.\r\nPreparing and distributing periodic progress reports and semester report cards.\r\nAttending parent-teacher meetings.\r\nEvaluating and documenting students’ progress.\r\nAllocating and grading homework, assignments, and tests.",
+            "company_name": "High School no. 1"
+        }
+    },
+    {
+        "model": "resume.experience",
+        "pk": 2,
+        "fields": {
+            "job_position": "Russian language & literature teacher",
+            "start_date": 2011,
+            "end_date": null,
+            "is_current": true,
+            "address": "Vayk, Vayots Dzor Province, Armenia",
+            "job_description": "Developing and issuing educational content including notes, tests, and assignments./n\r\nOrganizing supplies and resources for lectures and presentations./n\r\nPreparing and distributing periodic progress reports and semester report cards./n\r\nEvaluating and documenting students’ progress./n",
+            "company_name": "Primary School of Vayk City"
+        }
+    },
+    {
+        "model": "resume.socialmedia",
+        "pk": 1,
+        "fields": {
+            "platform_name": "GitHub",
+            "url": "https://github.com/nairaasa"
+        }
+    },
+    {
+        "model": "resume.socialmedia",
+        "pk": 2,
+        "fields": {
+            "platform_name": "Linkedin",
+            "url": "https://www.linkedin.com/in/naira-assatrian-ba541b265"
+        }
+    },
+    {
+        "model": "resume.socialmedia",
+        "pk": 3,
+        "fields": {
+            "platform_name": "Instagram",
+            "url": "https://www.instagram.com/asana8834"
+        }
+    },
+    {
+        "model": "resume.socialmedia",
+        "pk": 4,
+        "fields": {
+            "platform_name": "Facebook",
+            "url": "https://www.facebook.com/nara.asatrian.5"
+        }
+    },
+    {
+        "model": "resume.fact",
+        "pk": 1,
+        "fields": {
+            "name": "Clients",
+            "value": 100
+        }
+    },
+    {
+        "model": "resume.fact",
+        "pk": 2,
+        "fields": {
+            "name": "Projects",
+            "value": 1
+        }
+    },
+    {
+        "model": "resume.fact",
+        "pk": 3,
+        "fields": {
+            "name": "Hours Of Support",
+            "value": 1500
+        }
+    },
+    {
+        "model": "resume.fact",
+        "pk": 4,
+        "fields": {
+            "name": "Hard Workers",
+            "value": 15
+        }
+    },
+    {
+        "model": "resume.service",
+        "pk": 1,
+        "fields": {
+            "service_name": "Interpreting Services",
+            "service_description": "Language combinations in which interpreting services are offered: from Russian, Bulgarian into Armenian."
+        }
+    },
+    {
+        "model": "resume.service",
+        "pk": 2,
+        "fields": {
+            "service_name": "Language Teaching Service",
+            "service_description": "Group classes: This service can be offered for Russian, English, Bulgarian and Armenian languages."
+        }
+    },
+    {
+        "model": "resume.service",
+        "pk": 3,
+        "fields": {
+            "service_name": "Web Development",
+            "service_description": "This service involves creating visually appealing and functional websites tailored to the client's needs."
+        }
+    },
+    {
+        "model": "resume.service",
+        "pk": 4,
+        "fields": {
+            "service_name": "Content Writing/Copywriting",
+            "service_description": "Crafting engaging and persuasive content for websites, blogs, marketing materials, and more."
+        }
+    },
+    {
+        "model": "resume.service",
+        "pk": 5,
+        "fields": {
+            "service_name": "Virtual Classroom Management",
+            "service_description": "Demonstrating proficiency in managing online classrooms and virtual learning environments."
+        }
+    },
+    {
+        "model": "resume.service",
+        "pk": 6,
+        "fields": {
+            "service_name": "Accounting and Bookkeeping",
+            "service_description": "Offering comprehensive accounting and bookkeeping services for businesses. This could include managing financial records, reconciling accounts, processing invoices."
+        }
+    },
+    {
+        "model": "resume.personaldata",
+        "pk": 1,
+        "fields": {
+            "first_name": "Naira",
+            "last_name": "Assatrian",
+            "who_i_am": "Russian Tutor & Teacher, Interpreter, Freelancer",
+            "summary": "Dedicated, warm and caring teacher with 10+ years of experience who wants all children to be successful learners. Able to develop personal relationships with students and build their abilities.",
+            "address": "Vayk 3801, Armenia",
+            "tel": "+374 98 652 343",
+            "email": "asatryan.nairah@gmail.com",
+            "bday": "31 March 1988",
+            "website": "nairaasa.pythonanywhere.com",
+            "quote": "\"Education is the foundation of knowledge, and experience is the cornerstone of wisdom. Embrace every opportunity to learn, grow, and evolve in your professional journey, for it is the sum of your experiences that shapes your true expertise.\"",
+            "quote01": "A person with passion and purpose.",
+            "quote02": "Чтобы воспитывать другого, мы должны воспитать прежде всего себя. (Николай Васильевич Гоголь)",
+            "quote03": "My objective is to instill a love for literature, foster critical thinking skills, and provide historical and cultural context to enhance the understanding of Russian literary masterpieces. Giuding students through the exploration of classic novels, plays, and poetry, encouraging them to delve into the intricacies of the Russian literary tradition.",
+            "quote04": "Skills are the building blocks that transform potential into reality, unlocking doors to endless possibilities and shaping our journey towards success.",
+            "quote05": "In a world often clouded by opinions and subjective interpretations, facts shine like beacons of clarity, guiding us towards understanding and informed decision-making. Embrace the power of facts, for they hold the key to unlocking the doors of wisdom and progress.",
+            "quote06": "My contact information you will find here. Use any other communication channels I have made available on this website. Publicly available sources like social media profiles or networking platforms you can find also.",
+            "user": 1
+        }
+    },
+    {
+        "model": "resume.contact",
+        "pk": 1,
+        "fields": {
+            "location": "Shahumyan Street, 3801 Vayk, Armenia",
+            "email": "asatryan.nairah@gmail.com",
+            "phone": 37498652343
+        }
+    },
+    {
+        "model": "resume.message",
+        "pk": 9,
+        "fields": {
+            "full_name": "vvvvv",
+            "email": "asatriannara7@gmail.com",
+            "subject": "vvvvvvv",
+            "message": "nnnnnnnnnnn"
+        }
+    },
+    {
+        "model": "resume.message",
+        "pk": 10,
+        "fields": {
+            "full_name": "vvvvv",
+            "email": "asatriannara7@gmail.com",
+            "subject": "vvvvvvv",
+            "message": "zzzzzzz"
+        }
+    },
+    {
+        "model": "resume.message",
+        "pk": 11,
+        "fields": {
+            "full_name": "ggggggggg",
+            "email": "asatriannara7@gmail.com",
+            "subject": "bbb",
+            "message": "mmmmmmmm"
+        }
+    },
+    {
+        "model": "resume.message",
+        "pk": 12,
+        "fields": {
+            "full_name": "vvvvv",
+            "email": "n@mail.ru",
+            "subject": "vvvvvvv",
+            "message": "zzzzzzzz"
+        }
+    },
+    {
+        "model": "resume.portfolioproject",
+        "pk": 1,
+        "fields": {
+            "name": "Armenia",
+            "image": "media/IMG_2023.jpg",
+            "short_description": "Beauty",
+            "description": "Vayoc sar"
+        }
+    },
+    {
+        "model": "resume.portfolioproject",
+        "pk": 2,
+        "fields": {
+            "name": "Hayastan",
+            "image": "media/IMG_2022.jpg",
+            "short_description": "Beauty2",
+            "description": "Vardablur"
+        }
+    }
+]
