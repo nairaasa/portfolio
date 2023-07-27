@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from .models import Skill, PersonalData, Experience, Fact, Education, Service, Contact, PortfolioProject
 from .forms import MessageForm
+from django.shortcuts import get_object_or_404
 
 # Create your views here.
 def home(request):
@@ -77,3 +78,8 @@ def contact(request):
         "personal_data": personal_data
     }
     return render(request, "contact.html", context=data6)
+
+
+def portfolio_project(request, id):
+    project = get_object_or_404(PortfolioProject, id=id)
+    return render(request, "portfolio-details.html", context={"project": project})

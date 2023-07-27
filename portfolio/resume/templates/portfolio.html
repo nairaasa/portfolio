@@ -23,14 +23,14 @@
         
           <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
             {% for pproject in portfolio_projects%}
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-{{pproject.category}}">
               <div class="portfolio-wrap">
-                <img src="{% static 'assets/img/portfolio/IMG_2023.jpg' %}" class="img-fluid" alt="">
+                <img src="{{pproject.image.url}}" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>{{pproject.name}}</h4>
                   <p>{{pproject.short_description}}</p>
                   <div class="portfolio-links">
-                    <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                    <a href="{% url 'portfolio_project' pproject.id %}" ><i class="bx bx-link"></i></a>
                   </div>
                 </div>
               </div>
